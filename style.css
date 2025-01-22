@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Dégradé de couleurs */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Fond blanc semi-transparent */
+    border: 2px solid #ff7e5f; /* Bordure de couleur assortie au fond */
+    border-radius: 15px; /* Coins arrondis */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+main {
+border: 5px solid #333; /* Bordure noire */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
