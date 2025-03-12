@@ -1,0 +1,87 @@
+html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La zéon en image</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <header>
+    <h1><strong>La zéon squad en image.</strong></h1>
+  </header>
+  <nav>
+    <a href="index.html">Acceuil</a>
+  </nav>
+  <main>
+    <div class="tableaux-container">
+      <section class="tableau">
+        <img src="image/mog.png" alt="Image 1" class="image" onclick="openModal(this)">
+        <img src="image/mort.png" alt="Image 2" class="image" onclick="openModal(this)">
+        <img src="image/thotho.png" alt="Image 3" class="image" onclick="openModal(this)">
+        <img src="image/deloin.png" alt="Image 4" class="image" onclick="openModal(this)">
+        <img src="image/hopital.jfif" alt="Image 5" class="image" onclick="openModal(this)">
+        <img src="image/kouneB.png" alt="Image 6" class="image" onclick="openModal(this)">
+        <img src="image/pessi_freeze.png" alt="Image 4" class="image" onclick="openModal(this)">
+        <img src="image/spas12.png" alt="Image 5" class="image" onclick="openModal(this)">
+        <img src="image/catmog.png" alt="Image 6" class="image" onclick="openModal(this)">
+      </section>
+      <section class="tableau">
+        <img src="image/lena.png" alt="Image 7" class="image" onclick="openModal(this)">
+        <img src="image/pessi.png" alt="Image 8" class="image" onclick="openModal(this)">
+        <img src="image/s73JE.png" alt="Image 9" class="image" onclick="openModal(this)">
+        <img src="image/naan.png" alt="Image 10" class="image" onclick="openModal(this)">
+        <img src="image/thorange.png" alt="Image 11" class="image" onclick="openModal(this)">
+        <img src="image/fini.png" alt="Image 12" class="image" onclick="openModal(this)">
+      </section>
+    </div>
+    <section>
+      <form method="get" action="">
+        <fieldset>
+          <legend>Coordonnées</legend>
+        <p>
+          <label for="prenom">Votre prénom :</label>
+          <input type="text" name="prenom" id="prenom" placeholder="Ex. : Mathieu" size="30" maxlength="20" required>
+        </p>
+        <p>
+          <label for="nom">Votre nom :</label>
+          <input type="text" name="nom" id="nom" placeholder="Ex. : bougues" size="30" maxlength="20" required>
+        </p>
+        <p>
+          <label for="email"> Adresse mail :</label>
+          <input type="email" name="email" id="email" placeholder="Ex. : Routedeslamentations@hotmail.com" autofocus required></p>
+        <p>
+          <label for="avis">Des avis ?</label><br>
+          <textarea name="avis" id="avis"></textarea>
+        </p>
+      </fieldset>
+      <form method="get" action="">
+      <fieldset>
+        <legend>Question</legend>
+          <label for="question"> Vos membre préférée  </label>
+
+          <p>
+        <input type="checkbox" name="preference" id="paltay"/> <label for="paltay"> paltay</label>
+        <input type="checkbox" name="preference" id="s73"/> <label for="s73"> s73</label>
+        <input type="checkbox" name="preference" id="nayrok"/> <label for="nayrok"> nayrok</label>
+        <input type="checkbox" name="preference" id="xarox"/> <label for="xarox"> xarox</label>
+        <input type="checkbox" name="preference" id="koune"/> <label for="koune"> koune</label>
+        <input type="checkbox" name="preference" id="hayto"/> <label for="hayto"> hayto</label>
+        <input type="checkbox" name="preference" id="leMonstre"/> <label for="leMonstre"> leMonstre</label>
+   </p>
+ </fieldset>
+<input type="submit" value="Envoyer">
+</form>
+
+    </section>
+  </main>
+  <div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">×</span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>c="script.js"></script>
+</body>
